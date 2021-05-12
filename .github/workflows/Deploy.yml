@@ -7,11 +7,6 @@ on:
   push:
     branches: main
 
-
-jobs:
-  Build-and-deploy:
-    runs-on: [ubuntu-latest]
-
 jobs:
   build:
     runs-on: ubuntu-latest
