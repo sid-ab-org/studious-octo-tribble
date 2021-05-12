@@ -3,6 +3,7 @@ module.exports = {
     title: "Gatsby Theme Carbon",
     description: "A Gatsby theme for the carbon design system",
     keywords: "gatsby,theme,carbon",
+    siteUrl: `http://sidrana.dev/gatsby-starter-carbon-theme/`,
   },
   plugins: [
     {
