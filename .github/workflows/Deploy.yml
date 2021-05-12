@@ -26,10 +26,10 @@ jobs:
       - name: create CNAME file # remove files.
         run: |
           echo "ssl.wiki" > CNAME_.txt
-      - name: checkout dev  branch #checkout dev  branch into temp folder.
+      - name: checkout main  branch into temp folder.
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
           path: temp
           persist-credentials: false
 
