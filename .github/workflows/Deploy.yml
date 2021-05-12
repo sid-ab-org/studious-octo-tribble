@@ -6,7 +6,7 @@ name: CI
 # events but only for the master branch
 on:
   push:
-    branches: [dev]
+    branches: [main]
 
   schedule:
     # * is a special character in YAML so you have to quote this string
