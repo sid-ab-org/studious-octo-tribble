@@ -5,15 +5,15 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from '../../images/carbon.jpg';
 
-const FirstLeftText = () => <p>Callout component</p>;
+const FirstLeftText = () => <p>SSL.WIKI</p>;
 
 const FirstRightText = () => (
   <p>
-    This is a callout component. You can edit the contents by updating the{' '}
+    The web's most comprehensive guide to obtain ssl cretificates for free.{' '}
     <a href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/5fe12de31bb19fbfa2cab7c69cd942f55aa06f79/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
       pre-shadowed homepage template
     </a>
-    . You can also provide <code>color</code> and <code>backgroundColor</code>{' '}
+    . Learn how to obtain free SSL for any platform <code>color</code> and <code>backgroundColor</code>{' '}
     props to suit your theme.
     <a
       className={calloutLink}
@@ -37,7 +37,7 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>Carbon Gatsby theme</h1>;
+const BannerText = () => <h1></h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
