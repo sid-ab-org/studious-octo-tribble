@@ -5,7 +5,7 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from '../../images/carbon.jpg';
 
-const FirstLeftText = () => <p>SSL.WIKI</p>;
+const FirstLeftText = () => <p>What's ssl.wiki ?</p>;
 
 const FirstRightText = () => (
   <p>
@@ -23,21 +23,20 @@ const FirstRightText = () => (
   </p>
 );
 
-const SecondLeftText = () => <p>Callout component</p>;
+const SecondLeftText = () => <p>Our motto</p>;
 
 const SecondRightText = () => (
   <p>
-    You can also not use these components at all by not providing the callout
-    props to the template or writing your own template.
+    We belive that encryption is a fundamental right & nobody should be paying for it.
     <a
       className={calloutLink}
       href="https://github.com/carbon-design-system/gatsby-theme-carbon/blob/main/packages/example/src/gatsby-theme-carbon/templates/Homepage.js">
-      Homepage source →
+      Read more →
     </a>
   </p>
 );
 
-const BannerText = () => <h1></h1>;
+const BannerText = () => <h1>SSL.WIKI</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
