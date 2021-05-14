@@ -1,7 +1,7 @@
 # Gatsby Theme Carbon Starter
 
 ## What is this?
-
+ 
 > Gatsby [themes](https://www.gatsbyjs.org/docs/themes/) encapsulate all of the
 > configuration and implementation details of Gatsby websites. This is a
 > starter-kit (boilerplate) with a dependancy on the `gatsby-theme-carbon`
